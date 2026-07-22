@@ -1576,3 +1576,35 @@ section{
 }
 
 }
+
+
+
+
+}
+
+
+/* ======================================
+          DESKTOP
+====================================== */
+
+@media(min-width:1200px){
+
+.hero-left h1{
+
+    font-size:82px;
+
+}
+
+.hero-left h2{
+
+    font-size:34px;
+
+}
+
+.section-title h2{
+
+    font-size:50px;
+
+}
+
+}
