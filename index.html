@@ -345,6 +345,141 @@ Java
     </div>
 
 </section>
+    <section id="project" class="project-section">
+    <h2>Ongoing Project</h2>
+
+    <div class="project-card">
+
+        <h3>Volunteer Management System</h3>
+
+        <p>
+            The Volunteer Management System is a web-based application developed
+            to simplify the management of volunteers, coordinators, and events.
+            The system allows administrators to register volunteers, assign
+            volunteers to events, monitor attendance, track volunteer hours,
+            and generate reports. It reduces manual work and improves
+            communication between volunteers and organizers. The project follows
+            Software Engineering principles and Agile methodology for efficient
+            development.
+        </p>
+
+        <h3>Project Activities</h3>
+
+        <table class="activity-table">
+
+            <tr>
+                <th>Activity ID</th>
+                <th>Activity</th>
+            </tr>
+
+            <tr><td>A</td><td>Requirement Gathering</td></tr>
+            <tr><td>B</td><td>Requirement Analysis</td></tr>
+            <tr><td>C</td><td>System Design</td></tr>
+            <tr><td>D</td><td>Database Design</td></tr>
+            <tr><td>E</td><td>UI Design</td></tr>
+            <tr><td>F</td><td>Frontend Development</td></tr>
+            <tr><td>G</td><td>Backend Development</td></tr>
+            <tr><td>H</td><td>Database Integration</td></tr>
+            <tr><td>I</td><td>Testing</td></tr>
+            <tr><td>J</td><td>Bug Fixing</td></tr>
+            <tr><td>K</td><td>Documentation</td></tr>
+            <tr><td>L</td><td>Deployment</td></tr>
+
+        </table>
+
+        <h3>Activity Details</h3>
+
+        <table class="activity-table">
+
+            <tr>
+                <th>Activity</th>
+                <th>Predecessor</th>
+                <th>Successor</th>
+                <th>Duration (Days)</th>
+            </tr>
+
+            <tr><td>A</td><td>-</td><td>B</td><td>4</td></tr>
+            <tr><td>B</td><td>A</td><td>C</td><td>3</td></tr>
+            <tr><td>C</td><td>B</td><td>D,E</td><td>5</td></tr>
+            <tr><td>D</td><td>C</td><td>G</td><td>4</td></tr>
+            <tr><td>E</td><td>C</td><td>F</td><td>5</td></tr>
+            <tr><td>F</td><td>E</td><td>H</td><td>8</td></tr>
+            <tr><td>G</td><td>D</td><td>H</td><td>9</td></tr>
+            <tr><td>H</td><td>F,G</td><td>I</td><td>4</td></tr>
+            <tr><td>I</td><td>H</td><td>J</td><td>5</td></tr>
+            <tr><td>J</td><td>I</td><td>K</td><td>3</td></tr>
+            <tr><td>K</td><td>J</td><td>L</td><td>3</td></tr>
+            <tr><td>L</td><td>K</td><td>-</td><td>2</td></tr>
+
+        </table>
+
+        <h3>Activity on Node (AON)</h3>
+
+        <div class="diagram">
+<pre>
+A
+│
+▼
+B
+│
+▼
+C
+├────────► D ─────────┐
+│                     │
+└────────► E ─► F ────┤
+                      ▼
+                      H
+                      │
+                      ▼
+                      I
+                      │
+                      ▼
+                      J
+                      │
+                      ▼
+                      K
+                      │
+                      ▼
+                      L
+</pre>
+        </div>
+
+        <h3>Activity on Edge (AOE)</h3>
+
+        <div class="diagram">
+<pre>
+(Start)
+   ●
+   │A
+   ●
+   │B
+   ●
+  / \
+C/   \C
+●     ●
+│D    │E
+●      ●
+│G     │F
+ \      /
+  \    /
+    ●
+    │H
+    ●
+    │I
+    ●
+    │J
+    ●
+    │K
+    ●
+    │L
+    ●
+ (End)
+</pre>
+        </div>
+
+    </div>
+
+</section>
 
 
 
